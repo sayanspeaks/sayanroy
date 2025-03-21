@@ -358,7 +358,6 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
 }
 
 .avatar-box {
@@ -623,8 +622,8 @@ main {
 .service-item-web-dev {
   color: #54a0ff;
 }
-.service-data-structures {
-  color: #fdcb6e;
+.service-item-database {
+  color: #39a528;
 }
 .service-machine-learning {
   color: #ff6b6b;
@@ -1551,10 +1550,6 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar.active {
     max-height: 584px;
-  }
-
-  .sidebar-info {
-    gap: 25px;
   }
 
   .avatar-box {
