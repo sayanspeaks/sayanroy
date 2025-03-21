@@ -390,7 +390,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
+  color: var(--highlighter-white);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -403,7 +403,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: var(--background-blue);
   transition: var(--transition-1);
   z-index: -1;
 }
@@ -481,10 +481,21 @@ main {
   font-size: 18px;
 }
 
-.social-item .social-link:hover {
+.social-item .fa {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+
+.social-item .fa:hover {
   color: #20f378;
   transition: ease-in-out 0.25s;
 }
+
+.social-item .social-link:hover {
+  color: #0077B5;
+  transition: ease-in-out 0.25s;
+}
+
 
 /*-----------------------------------*\
   #NAVBAR
