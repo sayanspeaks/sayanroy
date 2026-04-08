@@ -619,17 +619,23 @@ main {
 }
 
 /*  */
-.service-item-web-dev {
-  color: #54a0ff;
+.service-item-dataengineering {
+  color: #BC0909;
+}
+.service-item-cloudcomputing {
+  color: #811AA9;
+}
+.service-item-psql {
+  color: #0064a5;
 }
 .service-item-database {
   color: #39a528;
 }
-.service-machine-learning {
-  color: #ff6b6b;
+.service-item-development {
+  color: #FDCB6E;
 }
-.service-illustration {
-  color: #ff9f43;
+.service-item-leadership {
+  color: #C57F0C;
 }
 /*  */
 
