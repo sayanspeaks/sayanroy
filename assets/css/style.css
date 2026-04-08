@@ -872,6 +872,7 @@ main {
 
 .timeline {
   margin-bottom: 30px;
+  padding-right: inherit;
 }
 
 .timeline .title-wrapper {
