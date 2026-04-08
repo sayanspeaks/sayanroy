@@ -872,7 +872,7 @@ main {
 
 .timeline {
   margin-bottom: 30px;
-  padding-right: inherit;
+  padding-right: inherit !important;
 }
 
 .timeline .title-wrapper {
